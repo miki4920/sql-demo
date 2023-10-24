@@ -1,4 +1,7 @@
 -- This code has been designed for MySQL database. 
+CREATE SCHEMA sql_demo;
+USE sql_demo;
+
 CREATE TABLE IF NOT EXISTS User (
     id BIGINT PRIMARY KEY,
     username VARCHAR(255),
